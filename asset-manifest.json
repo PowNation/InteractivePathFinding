@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/InteractivePathFinding/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/InteractivePathFinding/static/js/main.d7f80301.chunk.js",
-    "main.js.map": "/InteractivePathFinding/static/js/main.d7f80301.chunk.js.map",
-    "runtime-main.js": "/InteractivePathFinding/static/js/runtime-main.019112b7.js",
-    "runtime-main.js.map": "/InteractivePathFinding/static/js/runtime-main.019112b7.js.map",
-    "static/js/2.65765abc.chunk.js": "/InteractivePathFinding/static/js/2.65765abc.chunk.js",
-    "static/js/2.65765abc.chunk.js.map": "/InteractivePathFinding/static/js/2.65765abc.chunk.js.map",
-    "static/js/3.eaedf280.chunk.js": "/InteractivePathFinding/static/js/3.eaedf280.chunk.js",
-    "static/js/3.eaedf280.chunk.js.map": "/InteractivePathFinding/static/js/3.eaedf280.chunk.js.map",
+    "main.js": "/InteractivePathFinding/static/js/main.3f43cfc2.chunk.js",
+    "main.js.map": "/InteractivePathFinding/static/js/main.3f43cfc2.chunk.js.map",
+    "runtime-main.js": "/InteractivePathFinding/static/js/runtime-main.a1e326c6.js",
+    "runtime-main.js.map": "/InteractivePathFinding/static/js/runtime-main.a1e326c6.js.map",
+    "static/js/2.13476a73.chunk.js": "/InteractivePathFinding/static/js/2.13476a73.chunk.js",
+    "static/js/2.13476a73.chunk.js.map": "/InteractivePathFinding/static/js/2.13476a73.chunk.js.map",
+    "static/js/3.735cd89e.chunk.js": "/InteractivePathFinding/static/js/3.735cd89e.chunk.js",
+    "static/js/3.735cd89e.chunk.js.map": "/InteractivePathFinding/static/js/3.735cd89e.chunk.js.map",
     "index.html": "/InteractivePathFinding/index.html",
     "static/css/main.ab7136cd.chunk.css.map": "/InteractivePathFinding/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.65765abc.chunk.js.LICENSE.txt": "/InteractivePathFinding/static/js/2.65765abc.chunk.js.LICENSE.txt",
+    "static/js/2.13476a73.chunk.js.LICENSE.txt": "/InteractivePathFinding/static/js/2.13476a73.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/InteractivePathFinding/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.019112b7.js",
-    "static/js/2.65765abc.chunk.js",
+    "static/js/runtime-main.a1e326c6.js",
+    "static/js/2.13476a73.chunk.js",
     "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.d7f80301.chunk.js"
+    "static/js/main.3f43cfc2.chunk.js"
   ]
 }
