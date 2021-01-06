@@ -6,13 +6,6 @@ import "./Board.css"
 class Board extends React.Component {
     constructor(props){
         super(props)
-<<<<<<< HEAD
-        this.state ={
-            start:this.props.start,
-            end:this.props.end
-        }
-    }
-=======
 
         this.state = {
             start: this.props.start,
@@ -34,22 +27,11 @@ class Board extends React.Component {
         return null
     }
 
->>>>>>> af6f3d12818fa9f5aacd51fe9c186510468c56e7
     createNodes = () => {
         let tableRow = []
         for (let i = 0; i < 20; i++) {
             let nodes = []
             for (let j = 0; j < 20; j++) {
-<<<<<<< HEAD
-                if(i === this.state.start[0] && j === this.state.start[1]){
-                    nodes.push(<Node isstart={true}></Node>)
-                }
-                else if(i === this.state.end[0] && j === this.state.end[1]){
-                    nodes.push(<Node isend={true}></Node>)
-                }
-                else nodes.push(<Node/>)
-            }
-=======
                 if (this.state.start) {
                     if (i === this.state.start[0] && j === this.state.start[1]){
                         nodes.push(<Node isStart={true}></Node>)
@@ -65,7 +47,6 @@ class Board extends React.Component {
                 nodes.push(<Node/>)
             }
             console.log(nodes)
->>>>>>> af6f3d12818fa9f5aacd51fe9c186510468c56e7
             tableRow.push(<tr className={i}>{nodes}</tr>)
         }
         return tableRow

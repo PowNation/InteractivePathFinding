@@ -10,10 +10,6 @@ export default class App extends React.Component{
         return (
             <div>
                 <Location start={[2,2]} end={[10,10]}/>
-<<<<<<< HEAD
-                <Board />
-=======
->>>>>>> af6f3d12818fa9f5aacd51fe9c186510468c56e7
             </div>
         )
     }
