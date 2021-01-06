@@ -3,8 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+<<<<<<< HEAD
 import Board from "./components/Board"
 import Location from "./components/Location"
+=======
+>>>>>>> af6f3d12818fa9f5aacd51fe9c186510468c56e7
 
 ReactDOM.render(
     <App/>,
