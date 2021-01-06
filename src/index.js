@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 class Node extends React.Component {
     constructor(props) {
@@ -13,7 +11,6 @@ class Node extends React.Component {
         }
     }
 
-
     clickNode = () => {
         this.setState(prevState => ({
             clicked: !prevState.clicked
@@ -22,7 +19,7 @@ class Node extends React.Component {
 
     render() {
         return (
-        <button className="node" style={{backgroundColor: this.state.clicked ? "black" : "white"}} onClick={() => this.clickNode()}></button>
+            <button className="node" style={{backgroundColor: this.state.clicked ? "black" : "white"}} onClick={() => this.clickNode()}></button>
         )
     }
 }
@@ -53,8 +50,3 @@ ReactDOM.render(
     <Board/>,
     document.getElementById('root')
 )
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-// reportWebVitals();
