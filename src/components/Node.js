@@ -3,12 +3,12 @@ import ReactDOM from "react-dom"
 import "./Node.css"
 
 class Node extends React.Component {
-    constructor() {
-        super()
+    constructor(props) {
+        super(props)
+
         this.state = {
             clicked: false
         }
-        
     }
 
     clickNode = () => {
