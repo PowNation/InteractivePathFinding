@@ -1,16 +1,18 @@
 // import logo from './logo.svg';
 import React from 'react';
-import { Provider } from 'Provider';
-import Index from './components/index';
 // import 'reset-css'
-import './App.css';
+import './App.css'
+import Board from "./components/Board"
+import Location from "./components/Location"
 
-function App() {
-  return (
-      <Provider>
-        <Index />
-      </Provider>
-  );
+export default class App extends React.Component{
+    render(){
+        return (
+            <div>
+                <Location start={[2,2]} end={[10,10]}/>
+                <Board />
+            </div>
+        )
+    }
 }
 
-export default App;
