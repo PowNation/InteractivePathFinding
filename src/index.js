@@ -13,7 +13,6 @@ class Node extends React.Component {
         }
     }
 
-
     clickNode = () => {
         this.setState(prevState => ({
             clicked: !prevState.clicked
